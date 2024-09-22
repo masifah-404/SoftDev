@@ -193,9 +193,13 @@ def main():
     turtle.pendown()
     draw_cake(cake_width, cake_height, cake_colors, decoration_size, decoration_color)
     
+    # Go back to original position
+    turtle.penup()
+    turtle.goto(-table_width / 2, 0)
+
     # Wait for user to close the window
-    turtle.hideturtle()
-    turtle.done()
+    input("Press any key to exit")
+    ''' use the other method to end the turtle screen '''
 
 # Run the program
 if __name__ == "__main__":
