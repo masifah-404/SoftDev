@@ -199,7 +199,6 @@ def main():
 
     # Wait for user to close the window
     input("Press any key to exit")
-    ''' use the other method to end the turtle screen '''
 
 # Run the program
 if __name__ == "__main__":
